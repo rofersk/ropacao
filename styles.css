@@ -29,15 +29,15 @@ body {
 }
 @media (max-width: 768px) {
     .navbar {
-        padding: 8px 3%; /* Reduce left padding more */
+        padding: 8px 3%;
     }
 
     .logo {
-        margin-left: -10px; /* Move the logo even further left */
+        margin-left: -10px;
     }
 
     .logo img {
-        width: 150px; /* Keep the size manageable */
+        width: 150px;
         height: auto;
     }
 }
@@ -102,12 +102,10 @@ body {
     animation: slideIn 1s ease-in-out forwards;
 }
 
-/* Apply fadeIn animation */
 .fade-in {
     animation: fadeIn 1s ease-in-out forwards;
 }
 
-/* Apply slideIn animation */
 .slide-in {
     animation: slideIn 1s ease-in-out forwards;
 }
@@ -244,24 +242,23 @@ body {
 }
 
 .timeline-content h3 {
-    font-size: 16px; /* Made it smaller */
+    font-size: 16px;
     margin: 0 0 5px;
     display: flex;
     align-items: center;
 }
 
 .timeline-content h3 i {
-    font-size: 14px; /* Adjusted icon size */
+    font-size: 14px;
     margin-right: 8px;
     color: #888888;
 }
 
 .timeline-content p {
-    font-size: 18px; /* Slightly smaller text for mobile */
+    font-size: 18px;
     margin: 0;
 }
 
-/* Tech stack styles */
 .tech-logos {
     margin-top: 10px;
     display: flex;
@@ -278,7 +275,6 @@ body {
     color: #333;
 }
 
-/* Mobile responsiveness */
 @media (max-width: 600px) {
     .timeline-item {
         flex-direction: column;
@@ -293,7 +289,7 @@ body {
         padding: 8px 12px;
     }
     .timeline-content p {
-        font-size: 14px; /* Slightly smaller text for mobile */
+        font-size: 14px;
         margin: 0;
     }
 
@@ -307,11 +303,10 @@ body {
     }
 
     .tech-logos span {
-        font-size: 10px; /* Slightly smaller for mobile */
+        font-size: 10px;
         padding: 4px 8px;
     }
 }
-
 
 footer {
     background: #222;

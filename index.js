@@ -9,14 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (sectionTop < windowHeight - 100) {
             aboutSection.classList.add("visible");
-            window.removeEventListener("scroll", checkScroll); // Prevent unnecessary event checks
+            window.removeEventListener("scroll", checkScroll);
         }
     }
 
-    // Run check once on load in case "About" is already visible
     checkScroll();
 
-    // Add scroll listener
     window.addEventListener("scroll", checkScroll);
 });
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
