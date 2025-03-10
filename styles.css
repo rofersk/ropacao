@@ -27,6 +27,20 @@ body {
     height: 80px;
     object-fit: cover;
 }
+@media (max-width: 768px) {
+    .navbar {
+        padding: 8px 3%; /* Reduce left padding more */
+    }
+
+    .logo {
+        margin-left: -10px; /* Move the logo even further left */
+    }
+
+    .logo img {
+        width: 150px; /* Keep the size manageable */
+        height: auto;
+    }
+}
 
 .portfolio {
     display: flex;
